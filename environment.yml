@@ -1,0 +1,14 @@
+name: diabetes
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python==3.9.*
+  - pip
+  - pandas
+  - jupyter
+  - seaborn
+  - matplotlib
+  - scikit-learn==1.2.0
+  - pip:
+    - pdflatex
