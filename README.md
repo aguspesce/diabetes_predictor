@@ -10,50 +10,54 @@ Facilito
 
 ## Como ejecutar los notebook en tu computadora local
 
-Hay algunas cosas que necesitará para ejecutar el portátil:
+Hay algunas cosas que necesitarás instaladas en tu computadora para poder
+ejecutar el contenido de este repositorio:
 
-* Una instalación de Python en funcionamiento
- ([Anaconda](https://www.anaconda.com/) o Miniconda).
-* El entorno de conda (conda environment) instalado.
-* Un navegador web que funcione con portátiles Jupyter.
+- Una instalación de Python en funcionamiento
+  ([Anaconda](https://www.anaconda.com/) o Miniconda).
+- El entorno de conda (conda environment) instalado.
+- Un navegador web que funcione con Jupyter.
 
-### Paso 1: instalación una distribución de Python
+### Paso 1: Instalación una distribución de Python
 
-Para poder ejecutar estos notebook se utiliza la distribución
-[Anaconda](https://www.anaconda.com/) Python junto con el administrador de
+Para poder ejecutar estos notebook se utiliza la distribución de Python de
+[Anaconda](https://www.anaconda.com/) junto con el administrador de
 paquetes `conda`.
+
 Si ya tiene instalado Anaconda o Miniconda, puede omitir este paso.
+De lo contrario, sigue las instrucciones de la página web de Anaconda:
+[https://docs.anaconda.com/anaconda/install/](https://docs.anaconda.com/anaconda/install/)
 
-De lo contrario, siga las instrucciones para poner en funcionamiento Anaconda
-en su sistema: [https://docs.anaconda.com/anaconda/install/](https://docs.anaconda.com/anaconda/install/)
-
-Si necesitas más ayuda para instalar Anaconda puedes ver este video tutorial de
+Si necesita más ayuda para instalar Anaconda, puede ver este video tutorial de
 [Software Carpentry](https://carpentries.github.io/workshop-template/#python).
 
-### Paso 2 - Crear el entorno de conda
+### Paso 2: Crear el entorno de conda
 
 Se pueden instalar todas las dependencias necesarias a través del administrador
-de paquetes `conda`:
+de paquetes `conda`.
+El archivo llamado `environment.yml` contiene todas las dependencias que que el
+administrador debe instalar, para ello ejecuta:
 
 ```
-conda env crear -f entorno.yml
+conda env create -f environment.yml
 ```
 
-Luego activar el entorno:
+Luego activar el entorno (environment):
 
 ```
-conda activar diabetes
+conda activate diabetes
 ```
 
-### Paso 3: inicie JupyterLab
+### Paso 3: Inicie JupyterLab
 
-Una vez activado el  entorno, inicie el servidor JupyterLab:
+Una vez activado el entorno, inicie el servidor JupyterLab:
+
 ```
-laboratorio jupyter
+jupyter lab
 ```
 
 Jupyter debería abrirse en su navegador web predeterminado.
-Si necesitas más ayuda para ejecutar JupyterLab puedes ver esta lección de
+Si necesita más ayuda para ejecutar JupyterLab puedes ver esta lección de
 [Software Carpentry](https://swcarpentry.github.io/python-novice-gapminder/01-run-quit/index.html).
 
 ## Licencia
