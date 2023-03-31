@@ -1,13 +1,5 @@
 # Diabetes Detector
 
----
-
-This is a final project developed during the[Bootcamp de ciencia de
-datos](https://codigofacilito.com/bootcamps/ciencia-datos-g2/roadmap) by Código
-Facilito
-
----
-
 The project aims to develop a prediction model for estimating the likelihood of diabetes in patients. 
 
 The following steps were taken to achieve the objective:
@@ -17,6 +9,8 @@ The following steps were taken to achieve the objective:
 - Tested three distinct classification algorithms, including logistic regression and decision trees, to develop a prediction model using the Scikit-learn toolkit.
 
 **Please note that the Jupyter notebooks included in this project are written in Spanish.**
+
+_This is a final project developed during the[Bootcamp de ciencia de datos](https://codigofacilito.com/bootcamps/ciencia-datos-g2/roadmap) by Código Facilito._
 
 
 ## How to Run the Notebooks on Your Local Computer
@@ -62,4 +56,9 @@ If you need more help running JupyterLab, you can watch this lesson from [Softwa
 
 ## License
 
-Unless otherwise specified, all figures and Jupyter notebooks are available under the Creative Commons Attribution 4.0 (CC-BY) license.
+All Python source code is available under the [BSD 3-clause license]( https://opensource.org/licenses/BSD-3-Clause). 
+You are free to use and modify the code, without warranty, as long as you provide attribution to the authors.
+
+Unless otherwise specified, all figures and Jupyter notebooks are available under the [Creative Commons Attribution 4.0 (CC-BY) license](https://creativecommons.org/licenses/by/4.0/).
+
+The full text of these licenses is provided in the [LICENSE.txt file](https://github.com/aguspesce/diabetes_predictor/blob/main/LICENSE.txt).
